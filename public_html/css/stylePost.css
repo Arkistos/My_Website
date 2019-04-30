@@ -1,0 +1,29 @@
+
+.contentPost
+{
+	margin-top: 0px;
+	padding-top: 15px;
+	background-color: #F7F5E6;
+	margin-bottom: 100px;
+}
+
+.contentPost img{
+	width: 100px;
+	height: 100px;
+}
+
+#info{
+	margin-bottom: -50px;
+
+}
+
+#profile_pic{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+
+#banner{
+	height: 400px;
+	width: 600px;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+  <route url="/admin/login" module="Connexion" action="login" />
+  <route url="/admin/logout" module="Connexion" action="logout" />
+  <route url="/admin/blog" module="Account" action="overview" />
+  <route url="/admin/info" module="Account" action="infos" />
+  <route url="/admin/updatePassword" module="Account" action="updatePassword" />
+  <route url="/admin/messagerie" module="Account" action="messagerie" />
+  <route url="/admin/message-([0-9]+)" module="Account" action="message" vars="id" />
+  <route url="/admin/registration" module="Account" action="register"/>
+  <route url="/admin/changePic" module="Account" action="changePic" />
+  <route url="/admin/blog/add" module="Blog" action="addPost" />
+  <route url="/admin/blog/addCat" module="Blog" action="addCat"/>
+  <route url="/admin/blog/update-([0-9]+)" module="Blog" action="updatePost" vars="id" />
+  <route url="/admin/blog/deletePost-([0-9]+)" module="Blog" action="deletePost" vars='id' />
+  <route url="/admin/news-insert\.html" module="News" action="insert" />
+  <route url="/admin/news-update-([0-9]+)\.html" module="News" action="update" vars="id" />
+  <route url="/admin/news-delete-([0-9]+)\.html" module="News" action="delete" vars="id" />
+  <route url="/admin/comment-update-([0-9]+)\.html" module="News" action="updateComment" vars="id" />
+  <route url="/admin/comment-delete-([0-9]+)\.html" module="News" action="deleteComment" vars="id" />
+</routes>

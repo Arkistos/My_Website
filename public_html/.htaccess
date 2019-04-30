@@ -1,0 +1,12 @@
+Options +FollowSymlinks
+
+RewriteEngine On
+
+RewriteRule ^admin/ index.php?app=Backend [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*)$ index.php?app=Fronted [QSA,L]
+# HTID:8700124: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:8700124:

@@ -1,0 +1,53 @@
+.addpost h1
+{
+	font-size: 5em;
+	padding-bottom: 50px;
+}
+
+.cat{
+	padding-top: 30px;
+}
+
+.form-check-label{
+	width: 10px;
+}
+
+.catInbox{
+	padding-left: 50px;
+}
+
+.boutonPost
+{
+	margin-top: 20px;
+}
+
+.boxContent
+{
+	margin-top: -30px;
+}
+
+.foo
+{
+	margin-top: -5px;
+	padding-bottom: 50px;
+}
+.custom-file
+{
+	display: none;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}

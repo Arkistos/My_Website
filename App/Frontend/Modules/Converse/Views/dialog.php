@@ -1,0 +1,1 @@
+<h2>Votre id est : <?=$id ?></h2>
